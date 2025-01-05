@@ -1,0 +1,10 @@
+This is the only fily come we need for masonry layout.
+
+.card {
+  columns: 'width value';
+}
+
+This makes sure the cards are at least specified width wide and if there are room to grow they will grow. they keep their original aspect ratio.
+
+
+however there is a problem the pictures seems to be loading top to bottom rather than left to right. meaning 

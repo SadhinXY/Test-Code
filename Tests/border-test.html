@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>border test</title>
+
+  <style>
+    body {
+      color: rgb(240, 240, 240);
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: rgb(96, 96, 96);
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+    }
+
+    .heading {
+      margin-top: 10px;
+      margin-bottom: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .title {
+      color: rgb(240, 240, 240);
+      font-weight: bold;
+      margin-bottom: -5px;
+    }
+
+    .underline {
+      color: grey;
+    }
+
+    .container {
+      background-color: rgba(60, 60, 60);
+      border-radius: 10px;
+      border: 1px solid rgb(0, 0, 0);
+      box-shadow: 
+        1px 0 0 rgb(165, 165, 165) inset,
+        0 1px 0 rgb(165, 165, 165) inset,
+       -1px 0 0 rgb(165, 165, 165) inset,
+       0 -1px 0 rgb(165, 165, 165) inset,
+      0 0 5px rgba(255, 255, 255, 0.15);
+      padding: 10px;
+    }
+
+    .content {
+      font-size: 18px;
+      margin: 3px 10px;
+      cursor: pointer;
+      padding: 3px;
+      transition: background-color 0.15s,
+      padding 0.15s, border-radius 0.15s;
+    }
+
+    .content:hover {
+      background-color: rgb(48, 98, 210);
+      padding-left: 5px;
+      border-radius: 5px;
+    }
+
+  </style>
+</head>
+
+
+<body>
+  <div class="container">
+
+    <div class="heading">
+      <div class="title">
+        Select from below
+      </div>
+      <div class="underline">
+        ____________
+      </div>
+      <div>
+        
+      </div>
+    </div>
+
+    <div class="content-container">
+      <div class="content">select</div>
+      <div class="content">select</div>
+      <div class="content">select</div>
+      <div class="content">select</div>
+      <div class="content">select</div>
+
+    </div>
+
+  </div>
+</body>
+</html>

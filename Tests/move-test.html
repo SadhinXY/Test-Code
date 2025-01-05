@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Move test</title>
+</head>
+
+<style>
+  body {
+    background: rgb(40, 40, 40);
+    display: flex;
+  }
+
+  div {
+    height: 200px;
+    width: 200px;
+    background-color: azure;
+    transition: background-color .3s,
+    transform .3s ease-in-out,
+    opacity 0.3s;
+  }
+
+  div:hover {
+    background-color: red;
+    transform: translate(100px);
+    opacity: 0;
+  }
+
+
+</style>
+<body>
+  <div></div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+.container {
+  position: relative;
+}
+
+.image-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.web-image {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  height: 60px;
+  background-color: rgba(160, 90, 245, 0.35);
+  border-radius: 10px;
+  z-index: 100;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.first-section {
+  display: flex;
+  align-items: center;
+}
+
+.first-section img {
+  width: 45px;
+  border-radius: 50px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.header-name {
+  margin-left: 10px;
+
+}
+
+.second-section {
+  display: flex;
+  align-items: center;
+}
+
+.contact-me {
+  margin-right: 20px;
+}
+
+.second-section img {
+  width: 35px;
+  margin-right: 15px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.icon:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0);
+}
+
+
+.welcome {
+  position: absolute;
+  top: 200px;
+  left: 80px;
+}
+
+.welcome-text {
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.to,
+.ag-father {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.ag-father {
+  background-color: rgba(160, 90, 245, 0.35);
+  padding: 1px 10px;
+  border-radius: 5px;
+}
+
+.slogan {
+  font-size: 25px;
+  font-weight: 400;
+  color: rgb(90, 90, 90);
+  margin: 30px 0 0 0;
+}
+
+.start-button {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  background-color: rgb(141, 65, 217);
+  padding: 18px 25px;
+  border: none;
+  border-radius: 50px;
+  margin: 40px 0 0 0;
+  cursor: pointer;
+}

@@ -1,0 +1,55 @@
+.container {
+  columns: 300px;
+  gap: 15px;
+}
+
+.card {
+  margin-bottom: 15px;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: var(--border);
+}
+
+.card:hover .image {
+  scale: 1.1;
+}
+
+.image {
+  width: 100%;
+  display: block;
+  transition: all 0.3s;
+}
+
+/*/////..... Media ...../////*/
+
+
+@media (max-width: 985px) {
+  .container {
+    columns: 250px;
+  }
+}
+
+@media (max-width: 835px) {
+  .container {
+    columns: 200px
+  }
+}
+
+@media (max-width: 470px) {
+  .container {
+    columns: 150px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    columns: 120px;
+    gap: 10px
+  }
+
+  .card {
+    margin-bottom: 10px;
+  }
+}

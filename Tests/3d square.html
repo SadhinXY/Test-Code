@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2d square</title>
+  <style>
+    body {
+      background-color: rgb(230, 230, 230);
+      padding: 0;
+      margin: 0;
+    }
+
+    .container,
+    .square {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      height: 100vh;
+      width: 100vw;
+    }
+
+    .square {
+      height: 300px;
+      width: 300px;
+      background-color: rgb(240, 240, 240);
+      transition: all 0.15s;
+    }
+
+    .square:hover {
+      box-shadow: -5px -5px 15px rgb(255, 255, 255),
+      5px 5px 15px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+    }
+
+    .text {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      transition: all 0.15s;
+    }
+
+    .square:hover .text {
+      box-shadow: -5px -5px 15px rgb(255, 255, 255),
+      5px 5px 15px rgba(0, 0, 0, 0.1);
+      font-weight: bold;
+    }
+
+
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="square">
+    <div class="text">
+      3D hover effect
+    </div>
+  </div>
+</div>
+</body>
+</html>
