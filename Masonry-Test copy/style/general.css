@@ -17,7 +17,7 @@
 body {
   background-color: var(--background-color);
   margin: 0;
-  padding: 80px 20px;
+  padding: 80px 30px;
 }
 
 p {
@@ -31,6 +31,18 @@ a {
 
 /*/////..... Media ...../////*/
 
+
+@media (min-width: 1050px) {
+  body {
+    padding: 80px 50px;
+  }
+}
+
+@media (max-width: 835px) {
+  body {
+  padding: 80px 20px;
+  }
+}
 
 @media (max-width: 375px) {
   body {

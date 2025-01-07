@@ -24,14 +24,31 @@
 
 /*/////..... Media ...../////*/
 
+@media (min-width: 1050px) {
+  .container {
+    columns: 220px;
+  }
+}
 
-@media (max-width: 985px) {
+@media (min-width: 1270px) {
   .container {
     columns: 250px;
   }
 }
 
-@media (max-width: 835px) {
+@media (min-width: 1425px) {
+  .container {
+    columns: 300px;
+  }
+}
+
+@media (max-width: 1005px) {
+  .container {
+    columns: 250px;
+  }
+}
+
+@media (max-width: 855px) {
   .container {
     columns: 200px
   }
